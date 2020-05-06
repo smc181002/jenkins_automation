@@ -3,6 +3,7 @@
 This project is done as a task of MLOps for learning DevOps automation for learning git, jenkins and docker.
 
 ## setup
+I took an example of a test repo in github. The link for the github [test code](http://github.com/smc181002/test) is here. 
 for setting up the project first there are somethings to configure the linux:
 * create two directories. Enter the commands `mkdir /root/testcode` and `mkdir /root/webcode`
 * the code to be tested is saved in testcode folder and the code the client uses is stored in webcode
