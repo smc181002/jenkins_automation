@@ -21,3 +21,5 @@ the code for doing this is `curl --user '<admin>:<password> 'http://<IPAddress>/
 ![Screenshot](three.png)
 ![Screenshot](four.png)
 * then we create a final job for the merging the two branches. This job is built after QA team has finalised that there is no error
+![Screenshot](five.png)
+![Screenshot](five_2.png)
