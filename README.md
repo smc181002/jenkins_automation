@@ -8,6 +8,7 @@ for setting up the project first there are somethings to configure the linux:
 * the code to be tested is saved in testcode folder and the code the client uses is stored in webcode
 * though not necessary, we create a hook for pushing the code for pushing automatically using post-commit hook
 ![Screenshot](one.png)
+![Screenshot](one_2.png)
 * we create a job for extracting the code from the github form master branch using the git plugin and then create a token session for creating git hooks after post commit. we need to add a code using curl to communicate to jenkins as is a web app. 
 the code for doing this is `curl --user '<admin>:<password> 'http://<IPAddress>/job/clone-files/build?token=TokenName'`
 * similarly we also create a job for extracting the developer code which is to be delpoyed in the testing server. after creating a job  similar to the above one, we also need to add this curl command  `curl --user '<admin>:<password> 'http://<IPAddress>/job/clone-files/build?token=TokenName'` we can change the token name if we want
